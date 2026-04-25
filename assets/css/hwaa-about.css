@@ -1,0 +1,341 @@
+* {
+    /* Box Model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    /* Typography */
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    /* Typography */
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    /* Typography */
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* HEADER */
+.about-header-container {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    /* Box Model */
+    width: 100%;
+    height: 400px;
+    /* Visuals */
+    background-color: #0A66C2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-navbar-container {
+    /* Box Model */
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.navbar-items {
+    /* Positioning */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* Box Model */
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-items a {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    /* Misc */
+    text-decoration: none;
+}
+
+/*About Message*/
+.about-message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.about-message-heading h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.about-message-subheading {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+/*Our Story*/
+.about-our-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    gap: 48px;
+}
+
+.our-story-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.our-story-message-container h1 {
+    font-family: "Montserrat";
+    font-weight: 700px;
+    font-size: 48px;
+}
+
+.our-story-message-container p {
+    font-family: "Montserrat";
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+.our-story-video-container {
+    width: 60%;
+    height: 60%;
+}
+
+.our-story-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+/* About Mission Vision */
+.about-vm-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 56px;
+    justify-content: center;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.vm-items-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+.vm-mission-container {
+    width: 50%;
+    height: 100%;
+    background-color: #FFDE01;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.vm-mission-container h1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 48px;
+    color: #0630E1;
+}
+
+.vm-mission-container p:nth-of-type(1) {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.vm-mission-container p:nth-of-type(2) {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.vm-vision-container {
+    width: 50%;
+    height: 100%;
+    background-color: #FFDE01;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.vm-vision-container h1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 48px;
+    color: #0630E1;
+}
+
+.vm-vision-container p:nth-of-type(1) {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.vm-vision-container p:nth-of-type(2) {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*Sets Us Apart*/
+.set-apart-container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.set-apart-message-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.set-apart-message-container h1 {
+    font-family: "Montserrat";
+    font-weight: 600px;
+    font-size: 48px;
+}
+
+.set-apart-message-container p {
+    font-family: "Montserrat";
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.set-apart-items-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding: 48px;
+}
+
+.set-apart-item-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.set-apart-item-1 h3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.set-apart-item-1 p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.set-apart-item-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.set-apart-item-2 h3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.set-apart-item-2 p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.set-apart-item-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.set-apart-item-3 h3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.set-apart-item-3 p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}

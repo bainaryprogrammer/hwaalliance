@@ -1,5 +1,6 @@
 Color:
 Soft-blue: #32a3ee
+Light-blue-2: #0A66C2
 Light-blue: #235ADC
 Strong-blue: #0630E1
 Dark-blue: #0A195B
