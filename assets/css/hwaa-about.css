@@ -227,7 +227,7 @@
     align-items: center;
     /* Box Model */
     width: 100%;
-    height: 800px;
+    height: 700px;
     gap: 48px;
 }
 
@@ -246,7 +246,7 @@
 .set-apart-message-container h1 {
     /* Typography */
     font-family: "Montserrat";
-    font-weight: 600;
+    font-weight: 700;
     font-size: 48px;
 }
 
@@ -301,4 +301,250 @@
     font-weight: 400;
     font-size: 20px;
     text-align: center;
+}
+
+/* Decade of Excellence */
+.decade-of-excellence-container {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Box Model */
+    width: 100%;
+    height: 800px;
+    padding-top: 48px;
+    padding-bottom: 200px;
+    gap: 56px;
+}
+
+.decade-of-excellence-message-container {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Box Model */
+    width: auto;
+    height: auto;
+    gap: 8px;
+}
+
+.decade-of-excellence-message-container h1 {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.decade-of-excellence-message-container p {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.decade-of-excellence-items-container {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+    gap: 48px;
+}
+
+.decade-of-excellence-item-1,
+.decade-of-excellence-item-2,
+.decade-of-excellence-item-3,
+.decade-of-excellence-item-4 {
+    /* Positioning */
+    display: flex;
+    flex-direction: row;
+    /* Box Model */
+    width: 80%;
+    height: 96px;
+    gap: 48px;
+}
+
+.decade-of-excellence-item-1-year,
+.decade-of-excellence-item-3-year {
+    /* Box Model */
+    width: 150px;
+    padding-right: 36px;
+    /* Visuals */
+    border-right: #235ADC 4px solid;
+}
+
+.decade-of-excellence-item-2-year,
+.decade-of-excellence-item-4-year {
+    /* Box Model */
+    width: 150px;
+    padding-right: 36px;
+    /* Visuals */
+    border-right: #32a3ee 4px solid;
+}
+
+.decade-of-excellence-item-1-year h2,
+.decade-of-excellence-item-2-year h2,
+.decade-of-excellence-item-3-year h2,
+.decade-of-excellence-item-4-year h2 {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 36px;
+    color: #0A66C2;
+}
+
+.decade-of-excellence-item-1-desc h2,
+.decade-of-excellence-item-2-desc h2,
+.decade-of-excellence-item-3-desc h2,
+.decade-of-excellence-item-4-desc h2 {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+}
+
+.decade-of-excellence-item-1-desc p,
+.decade-of-excellence-item-2-desc p,
+.decade-of-excellence-item-3-desc p,
+.decade-of-excellence-item-4-desc p {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+/* FOOTER */
+.footer-container {
+    /* Positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* Box Model */
+    width: 100%;
+    height: 350px;
+    /* Visuals */
+    background-color: #0A195B;
+}
+
+.footer-item-1 {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Box Model */
+    width: 25%;
+    height: 250px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.footer-item-1-tagline p {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-item-1-icons {
+    /* Positioning */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Box Model */
+    gap: 8px;
+}
+
+.footer-item-2 {
+    /* Positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Box Model */
+    width: 40%;
+    height: 250px;
+    padding: 24px;
+    gap: 128px;
+}
+
+.footer-item-2-services, 
+.footer-item-2-global-presence {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    /* Box Model */
+    gap: 16px;
+}
+
+.footer-item-2-services h3, 
+.footer-item-2-global-presence h3 {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: white;
+}
+
+.footer-item-2-services p, 
+.footer-item-2-global-presence p {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
+}
+
+.footer-item-3 {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Box Model */
+    width: 25%;
+    height: 350px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.footer-item-3-heading h3 {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: white;
+}
+
+.footer-item-3-contacts {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    /* Box Model */
+    gap: 24px;
+}
+
+.contact-1, 
+.contact-2, 
+.contact-3, 
+.contact-4 {
+    /* Positioning */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Box Model */
+    gap: 24px;
+}
+
+.contact-1 p,
+.contact-2 p,
+.contact-3 p,
+.contact-4 p {
+    /* Typography */
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
 }
