@@ -6,6 +6,7 @@ Strong-blue: #0630E1
 Dark-blue: #0A195B
 Yellow: #FFDE01
 Light-gray: #E4EFF3
+Light-gray-2: #F4F8FF
 
 Organize CSS:
 /* Positioning */
